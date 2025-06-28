@@ -1,5 +1,4 @@
-@media screen and (max-width:480px){
-    
+@media (min-width:500px){
     body {
         overflow-x: hidden;
     }
@@ -32,8 +31,8 @@
         flex-flow: column-reverse nowrap;
         background-color: #F9DF56;
     }
-    section > div.partI {
-        height: 448px;
+    section > div.partI { /*IMAGEM*/
+        height: 238px;
         width: 490px;
     }
     section > div.partII {
