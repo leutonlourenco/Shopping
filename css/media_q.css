@@ -17,8 +17,7 @@
 
     /*COMEÇO*/
     section.young {
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        
     }
     .young img {
         height: 250px;
@@ -34,12 +33,12 @@
     }
     section > div.partI {
         height: 448px;
-        width: 500px;
+        width: 750px;
         padding-top: 20px;
     }
     section > div.partII {
         height: 420px;
-        width: 500px;
+        width: 750px;
     }
     section > div.partII p {
         margin-left: 25px;
