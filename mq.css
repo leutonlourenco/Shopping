@@ -1,9 +1,11 @@
+/*
 @media (min-width:500px){
     body {
         overflow-x: hidden;
     }
 
-    /*COMEÇO*/
+    
+
     section.marcas {
         width: 490px;      
                               
@@ -11,9 +13,9 @@
     section.marcas img {
         width: 80px; 
     }
-    /*FIM*/
+    
 
-    /*COMEÇO*/
+    
     section.young {
         
     }
@@ -22,15 +24,15 @@
         width: 450px;
         padding-right: 6px;
     }
-    /*FIM*/
+   
 
-    /*COMEÇO*/
+
     section.promocao {
         display: flex;
         flex-flow: column-reverse nowrap;
         background-color: #F9DF56;
     }
-    section > div.partI { /*IMAGEM*/
+    section > div.partI {
         height: 238px;
         width: 490px;
     }
@@ -45,12 +47,11 @@
     section > div.partII .p-II {
        font-size: 17px;
     }
-    section > div.partII .p-comprar {/*BOTÃO COMPRAR*/
+    section > div.partII .p-comprar {
         margin-left: 25px;
     }
     section > div.partI img {
         height: 450px;
         margin-left: 20px;
     }
-    /*COMEÇO*/
-}
+} */
