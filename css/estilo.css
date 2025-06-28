@@ -37,9 +37,10 @@ section.marcas {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 20px;
 }
 section.marcas img {
-    height: 160px;
+    height: 163.4px;
 }
 
 
@@ -74,17 +75,17 @@ section > div.partII p {
     text-align: justify;
 }
 section > div.partII .p-0 {/*IMAGEM BRANCA*/
-    background-image: url('imagens/Rectangle\ 25.png');
+    background-image: url('../imagens/Rectangle\ 25.png');
     background-repeat: no-repeat;
-    width: 300px;
+    width: 250px;
     height: 80px;
-    padding: 5px;
+    padding-top: 10px;
     padding-left: 10px;
     font-size: 50px;
     font-weight: 900;
 }
 section > div.partII .p-I {
-    margin-top: -10px;
+    margin-top: -5px;
     width: 400px;
     font-size: 50px;
     font-weight: 900;
@@ -94,7 +95,7 @@ section > div.partII .p-II {
     font-size: 17px;
     font-weight: 500;
     line-height: 30px;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 section > div.partII .p-III {
     font-size: 17px;
@@ -115,7 +116,7 @@ section > div.partII .p-comprar {/*BOTÃO COMPRAR*/
     padding-left: 30px;
     font-weight: normal;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 27.9px;
     margin: 25px;
     margin-left: -70px;
@@ -130,6 +131,8 @@ section > div.partII .p-comprar {/*BOTÃO COMPRAR*/
 section.young {
     display: flex;
     justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 100px;
 }
 section.young img {
     height: 320px;

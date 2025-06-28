@@ -1,9 +1,9 @@
-@media screen and (max-width:750px) {
+@media screen and (max-width:500px) {
     body {
         overflow-x: hidden;
     }
     div.main {
-        width: 750px;
+        width: 500px;
     }
     /*COMEÇO*/
     section.marcas {
@@ -17,7 +17,7 @@
 
     /*COMEÇO*/
     section.young {
-        
+        width: 500px;
     }
     .young img {
         height: 250px;
@@ -29,7 +29,7 @@
     /*COMEÇO*/
     section.promocao {
         display: flex;
-        flex-flow: column-reverse nowrap;
+        flex-flow: column-reverse wrap;
     }
     section > div.partI {
         height: 448px;
