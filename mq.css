@@ -1,11 +1,11 @@
-@media (min-width:500px){
+@media screen and (max-width:500px){
     body {
         overflow-x: hidden;
     }
 
     /*COMEÇO*/
     section.marcas {
-        width: 490px;      
+        width: 500px;      
                               
     }
     section.marcas img {
@@ -15,7 +15,8 @@
 
     /*COMEÇO*/
     section.young {
-        
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
     }
     .young img {
         height: 250px;
@@ -28,16 +29,15 @@
     section.promocao {
         display: flex;
         flex-flow: column-reverse nowrap;
-        background-color: #F9DF56;
     }
-    section > div.partI { /*IMAGEM*/
-        height: 238px;
-        width: 490px;
+    section > div.partI {
+        height: 448px;
+        width: 500px;
+        padding-top: 20px;
     }
     section > div.partII {
         height: 420px;
-        width: 490px;
-        margin-bottom: 20px;
+        width: 500px;
     }
     section > div.partII p {
         margin-left: 25px;
@@ -51,6 +51,7 @@
     section > div.partI img {
         height: 450px;
         margin-left: 20px;
+        padding-bottom: 10px;
     }
     /*COMEÇO*/
 }

@@ -22,7 +22,9 @@ body {
     margin: auto auto;
 }
 
-div.plano {
+div.main {
+    display: flex;
+    flex-flow: row wrap;
     background-color: var(--cor02);
     height: 100%vh;
     width: 980px;
