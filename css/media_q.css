@@ -1,9 +1,9 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:750px) {
     body {
         overflow-x: hidden;
     }
     div.main {
-        width: 500px;
+        width: 750px;
     }
     /*COMEÇO*/
     section.marcas {
@@ -34,10 +34,12 @@
     }
     section > div.partI {
         height: 448px;
+        width: 500px;
         padding-top: 20px;
     }
     section > div.partII {
         height: 420px;
+        width: 500px;
     }
     section > div.partII p {
         margin-left: 25px;
