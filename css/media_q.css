@@ -3,11 +3,11 @@
         overflow-x: hidden;
     }
     div.main {
-        width: 500px;
+        width: 1010px;
     }
     /*COMEÇO*/
     section.marcas {
-        width: 500px;      
+        width: 1010px;     
                               
     }
     section.marcas img {
@@ -17,7 +17,7 @@
 
     /*COMEÇO*/
     section.young {
-        width: 500px;
+        width: 1010px;
     }
     .young img {
         height: 250px;
@@ -33,12 +33,12 @@
     }
     section > div.partI {
         height: 448px;
-        width: 980px;
+        width: 1010px;
         padding-top: 20px;
     }
     section > div.partII {
         height: 420px;
-        width: 980px;
+        width: 1010px;
     }
     section > div.partII p {
         margin-left: 25px;
