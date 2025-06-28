@@ -34,12 +34,10 @@
     }
     section > div.partI {
         height: 448px;
-        width: 500px;
         padding-top: 20px;
     }
     section > div.partII {
         height: 420px;
-        width: 500px;
     }
     section > div.partII p {
         margin-left: 25px;
