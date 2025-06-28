@@ -33,12 +33,12 @@
     }
     section > div.partI {
         height: 448px;
-        width: 100vw;
+        width: 980px;
         padding-top: 20px;
     }
     section > div.partII {
         height: 420px;
-        width: 1000px;
+        width: 980px;
     }
     section > div.partII p {
         margin-left: 25px;
