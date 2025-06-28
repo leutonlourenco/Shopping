@@ -1,4 +1,4 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:500px) {
     body {
         overflow-x: hidden;
     }
@@ -33,7 +33,7 @@
     }
     section > div.partI {
         height: 448px;
-        width: 800px;
+        width: 100vwpx;
         padding-top: 20px;
     }
     section > div.partII {
