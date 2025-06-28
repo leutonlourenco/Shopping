@@ -15,8 +15,7 @@
 
     /*COMEÇO*/
     section.young {
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        
     }
     .young img {
         height: 250px;
