@@ -6,7 +6,7 @@
 
     /*COMEÇO*/
     section.marcas {
-        width: 500px;      
+        width: 490px;      
                               
     }
     section.marcas img {
@@ -30,15 +30,16 @@
     section.promocao {
         display: flex;
         flex-flow: column-reverse nowrap;
+        background-color: #F9DF56;
     }
     section > div.partI {
         height: 448px;
-        width: 500px;
-        padding-top: 20px;
+        width: 490px;
     }
     section > div.partII {
         height: 420px;
-        width: 500px;
+        width: 490px;
+        margin-bottom: 20px;
     }
     section > div.partII p {
         margin-left: 25px;
@@ -52,7 +53,6 @@
     section > div.partI img {
         height: 450px;
         margin-left: 20px;
-        padding-bottom: 10px;
     }
     /*COMEÇO*/
 }
