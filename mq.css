@@ -1,0 +1,58 @@
+@media screen and (min-width:375px){
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    /*COMEÇO*/
+    section.marcas {
+        width: 500px;      
+                              
+    }
+    section.marcas img {
+        width: 80px; 
+    }
+    /*FIM*/
+
+    /*COMEÇO*/
+    section.young {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+    .young img {
+        height: 250px;
+        width: 450px;
+        padding-right: 6px;
+    }
+    /*FIM*/
+
+    /*COMEÇO*/
+    section.promocao {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+    }
+    section > div.partI {
+        height: 448px;
+        width: 500px;
+        padding-top: 20px;
+    }
+    section > div.partII {
+        height: 420px;
+        width: 500px;
+    }
+    section > div.partII p {
+        margin-left: 25px;
+    }
+    section > div.partII .p-II {
+       font-size: 17px;
+    }
+    section > div.partII .p-comprar {/*BOTÃO COMPRAR*/
+        margin-left: 25px;
+    }
+    section > div.partI img {
+        height: 450px;
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
+    /*COMEÇO*/
+}
