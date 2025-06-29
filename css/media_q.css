@@ -1,26 +1,15 @@
-@media (min-width:500px){
+@media (max-width:500px){
     body {
         overflow-x: hidden;
     }
 
     /*COMEÇO*/
     section.marcas {
-        width: 490px;      
+        width: 100vw;      
                               
     }
     section.marcas img {
         width: 80px; 
-    }
-    /*FIM*/
-
-    /*COMEÇO*/
-    section.young {
-        
-    }
-    .young img {
-        height: 250px;
-        width: 450px;
-        padding-right: 6px;
     }
     /*FIM*/
 
@@ -32,11 +21,11 @@
     }
     section > div.partI { /*IMAGEM*/
         height: 238px;
-        width: 490px;
+        width: 100vw;
     }
     section > div.partII {
         height: 420px;
-        width: 490px;
+        width: 100vw;
         margin-bottom: 20px;
     }
     section > div.partII p {
@@ -53,4 +42,25 @@
         margin-left: 20px;
     }
     /*COMEÇO*/
+
+     /*COMEÇO*/
+    section.young {
+        width: 100vw;
+        gap: 10px;
+    }
+    .young img {
+        height: 250px;
+        width: 400px;
+        padding-left: 20px;
+    }
+    .y-titulo {
+        padding-left: 20px;
+    }
+    .y-descricao {
+        padding-left: 20px;
+    }
+    .y-texto {
+        padding-left: 20px;
+    }
+    /*FIM*/
 }
