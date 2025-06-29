@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-@media (max-width:500px){
-=======
 @media screen and (max-width:500px) {
->>>>>>> 3f82f7395390ccebe575aeae1192198ff32b755b
     body {
         overflow-x: hidden;
     }
@@ -11,23 +7,16 @@
     }
     /*COMEÇO*/
     section.marcas {
-<<<<<<< HEAD
-        width: 100vw;      
-=======
-        width: 1010px;     
->>>>>>> 3f82f7395390ccebe575aeae1192198ff32b755b
-                              
+        width: 100vw;                             
     }
     section.marcas img {
-        width: 120pxpx; 
+        width: 120px; 
     }
     /*FIM*/
 
     /*COMEÇO*/
-<<<<<<< HEAD
-=======
     section.young {
-        width: 1010px;
+        width: 100vw;
     }
     .young img {
         height: 250px;
@@ -37,12 +26,10 @@
     /*FIM*/
 
     /*COMEÇO*/
->>>>>>> 3f82f7395390ccebe575aeae1192198ff32b755b
     section.promocao {
         display: flex;
         flex-flow: column-reverse wrap;
     }
-<<<<<<< HEAD
     section > div.partI { /*IMAGEM*/
         height: 238px;
         width: 100vw;
@@ -51,16 +38,15 @@
         height: 420px;
         width: 100vw;
         margin-bottom: 20px;
-=======
+    }    
     section > div.partI {
         height: 448px;
-        width: 1010px;
+        width: 100vw;
         padding-top: 20px;
     }
     section > div.partII {
         height: 420px;
-        width: 1010px;
->>>>>>> 3f82f7395390ccebe575aeae1192198ff32b755b
+        width: 100vw;
     }
     section > div.partII p {
         margin-left: 25px;
