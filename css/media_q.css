@@ -1,27 +1,14 @@
 @media screen and (max-width:500px) {
-    body {
-        overflow-x: hidden;
-    }
     div.main {
-        width: 1010px;
-    }
-    /*COMEÇO*/
-    section.marcas {
-        width: 100vw;                             
-    }
-    section.marcas img {
-        width: 120px; 
-    }
-    /*FIM*/
-
-    /*COMEÇO*/
-    section.young {
         width: 100vw;
     }
-    .young img {
-        height: 250px;
-        width: 450px;
-        padding-right: 6px;
+
+    /*COMEÇO*/
+    section.marcas {
+        width: 100vw;
+    }
+    section.marcas img {
+        width: 150px; 
     }
     /*FIM*/
 
@@ -29,25 +16,21 @@
     section.promocao {
         display: flex;
         flex-flow: column-reverse wrap;
-    }
-    section > div.partI { /*IMAGEM*/
-        height: 238px;
+        background-color: #F9DF56;
+    } 
+    section > div.partI {
+        height: 248px;
         width: 100vw;
+        padding-top: 20px;
     }
+    section > div.partI img { /*IMAGEM*/
+        height: 238px;
+    }  
     section > div.partII {
         height: 420px;
         width: 100vw;
         margin-bottom: 20px;
-    }    
-    section > div.partI {
-        height: 448px;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    section > div.partII {
-        height: 420px;
-        width: 100vw;
-    }
+    } 
     section > div.partII p {
         margin-left: 25px;
     }
