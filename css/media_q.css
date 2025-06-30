@@ -1,70 +1,210 @@
-@media screen and (max-width:500px) {
-    div.main {
-        width: 100vw;
-    }
+/*TELA PEQUENA*/
 
-    /*COMEÇO*/
-    section.marcas {
-        width: 100vw;
-    }
-    section.marcas img {
-        width: 150px; 
-    }
-    /*FIM*/
+/*TELA NOTEBOOK*/
+@media screen and (min-width:600px) and (max-width: 996px){
+   .main {
+    display: flex;
+    width: 100vw;
+   }
+   section.promocao {
+    display: flex;
+    flex-flow: row nowrap;
+   }
+   section > div.part1 {
+    display: flex;
+    flex-shrink: 1;
+    height: 486px;
+    width: 40vw;
+    padding-top: 20px;
+   }
+   section > div.part1 img { /*IMAGEM*/
+    height: 480px;
+    margin-left: -100px;
+   }
+   section > div.part2 {
+    height: 486px;
+    width: 60vw;
+    padding-left: 150px;
+    margin-bottom: 20px;
+   } 
+   section > div.part2 p {
+    margin-left: -80px;
+   }
+   .young {
+    display: flex;
+   }
 
-    /*COMEÇO*/
-    section.promocao {
-        display: flex;
-        flex-flow: column-reverse wrap;
-        background-color: #F9DF56;
-    } 
-    section > div.partI {
-        height: 248px;
-        width: 100vw;
-        padding-top: 20px;
-    }
-    section > div.partI img { /*IMAGEM*/
-        height: 238px;
-    }  
-    section > div.partII {
-        height: 420px;
-        width: 100vw;
-        margin-bottom: 20px;
-    } 
-    section > div.partII p {
-        margin-left: 25px;
-    }
-    section > div.partII .p-II {
-       font-size: 17px;
-    }
-    section > div.partII .p-comprar {/*BOTÃO COMPRAR*/
-        margin-left: 25px;
-    }
-    section > div.partI img {
-        height: 450px;
-        margin-left: 20px;
-        padding-bottom: 10px;
-    }
-    /*COMEÇO*/
+}
+@media screen and (min-width: 1025px) {
 
-     /*COMEÇO*/
-    section.young {
-        width: 100vw;
-        gap: 10px;
-    }
-    .young img {
-        height: 250px;
-        width: 400px;
-        padding-left: 20px;
-    }
-    .y-titulo {
-        padding-left: 20px;
-    }
-    .y-descricao {
-        padding-left: 20px;
-    }
-    .y-texto {
-        padding-left: 20px;
-    }
-    /*FIM*/
+body {
+    font-family: var(--font-padrão);
+    background-color: var(--cor02);
+    width: 980px;
+    margin: auto auto;
+}
+
+div.main {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--cor02);
+    height: 100%vh;
+    width: 980px;
+    
+}
+section.marcas {
+    background-color: var(--cor01);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+section.marcas img {
+    height: 163.4px;
+}
+
+
+/*COMEÇO DA SECTION PROMOÇÃO*/
+section.promocao {
+    display: flex;
+    
+}
+section > div.partI {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    height: 486px;
+    margin-bottom: 200px;
+    background-color: #F9DF56;
+}
+section > div.partI img {/*IMAGEM MODELO*/
+    flex: 1 1 auto;
+    height: 500px;
+    margin-top: 3px;
+    margin-left: 40px;
+}
+
+section > div.partII {
+    flex: 1 1 auto;
+    height: 486px;
+    width: 415px;
+    background-color: #F9DF56;
+    text-align: center;
+    padding-left: 70px;
+}
+section > div.partII p {
+    
+    margin-top: 50px;
+    margin-left: -70px;
+    text-align: justify;
+}
+section > div.partII .p-0 {/*IMAGEM BRANCA*/
+    flex: 1 1 auto;
+    background-image: url('../imagens/Rectangle\ 25.png');
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+section > div.partII .p-I {
+    flex: 1 1 auto;
+    margin-top: -5px;
+    width: 400px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: justify;
+}
+section > div.partII .p-II {
+    flex: 1 1 auto;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 0px;
+}
+section > div.partII .p-III {
+    flex: 1 1 auto;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 15px;
+}
+section > div.partII .p-IV {
+    flex: 1 1 auto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+}
+section > div.partII .p-comprar {/*BOTÃO COMPRAR*/
+    flex: 1 1 auto;
+    background-color: var(--cor03);
+    color: var(--cor02);
+    padding: 12px;
+    padding-left: 30px;
+    font-weight: normal;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 27.9px;
+    margin: 25px;
+    margin-left: -70px;
+
+}
+/*FIM DA SECTION PROMOÇÃO*/
+
+
+
+
+/*SECTION YOUNG*/
+section.young {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+section.young img {
+    flex: 1 1 auto;
+    height: 320px;
+}
+section.young .y-titulo { /*TÍTULO DA SECTION PROMOÇÃO*/
+    flex: 1 1 auto;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 50px 0px;
+}
+section.young > div.y-one { /*1° IMAGEM*/
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section.young > div.y-two { /*2° IMAGEM*/
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 145.5px;
+}
+/*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
+section.young .y-descricao {
+    flex: 1 1 auto;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 30px;
+    letter-spacing: -4%;
+    margin: 15px 0px;
+}
+section.young .y-texto {
+    flex: 1 1 auto;
+    font-size: 17px;
+    line-height: 0px;
+    letter-spacing: -4%;
+    margin: 3px 4px;
+    color: #7F7F7F;
+}
+/*DESCRIÇÃO DAS IMAGENS, FIM*/
+/*SECTION YOUNG*/
 }
