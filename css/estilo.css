@@ -128,35 +128,34 @@ div.partI img {/*IMAGEM MODELO*/
 /*SECTION YOUNG*/
 section.young {
     display: flex;
-    justify-content: space-evenly;
-    gap: 30px;
+    height: 1000px;
+    width: 100vw;
+    flex-direction: column;
     margin-bottom: 100px;
-}
-section.young img {
-    flex: 1 1 auto;
-    height: 320px;
+    background-color: rgb(117, 44, 44);
 }
 section.young .y-titulo { /*TÍTULO DA SECTION PROMOÇÃO*/
-    flex: 1 1 auto;
     font-size: 30px;
     font-weight: bolder;
-    margin: 50px 0px;
+    margin: 100px 0px 30px 35px;
+    
 }
 section.young > div.y-one { /*1° IMAGEM*/
-    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-
 section.young > div.y-two { /*2° IMAGEM*/
-    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    margin-top: 145.5px;
+    margin-top: 50px;
+    align-items: center;
+}
+section.young img {
+    height: 300px;
 }
 /*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
 section.young .y-descricao {
-    flex: 1 1 auto;
     font-size: 20px;
     font-weight: bolder;
     line-height: 30px;
@@ -164,11 +163,9 @@ section.young .y-descricao {
     margin: 15px 0px;
 }
 section.young .y-texto {
-    flex: 1 1 auto;
     font-size: 17px;
     line-height: 0px;
     letter-spacing: -4%;
-    margin: 3px 4px;
     color: #7F7F7F;
 }
 /*DESCRIÇÃO DAS IMAGENS, FIM*/
