@@ -38,8 +38,7 @@ div.main {
     margin-bottom: 60px;
 }
 .marcas img {
-    height: 50px;
-    justify-self: auto;
+    height: 90px;
 }
 
 /*MARCAS FIM*/
@@ -139,13 +138,14 @@ section.young {
 section.young .y-titulo { /*TÍTULO DA SECTION PROMOÇÃO*/
     font-size: 30px;
     font-weight: bolder;
-    margin: 100px 0px 30px 35px;
+    margin: 80px auto;
     
 }
 section.young > div.y-one { /*1° IMAGEM*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -40px;
 }
 section.young > div.y-two { /*2° IMAGEM*/
     display: flex;
@@ -154,7 +154,7 @@ section.young > div.y-two { /*2° IMAGEM*/
     align-items: center;
 }
 section.young img {
-    height: 260px;
+    height: 240px;
 }
 /*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
 section.young .y-descricao {
