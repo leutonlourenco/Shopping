@@ -36,9 +36,11 @@ div.main {
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 60px;
+    overflow: hidden;
+    overflow-x: scroll;
 }
 .marcas img {
-    height: 90px;
+    height: 150px;
 }
 
 /*MARCAS FIM*/
@@ -154,7 +156,7 @@ section.young > div.y-two { /*2° IMAGEM*/
     align-items: center;
 }
 section.young img {
-    height: 240px;
+    height: 220px;
 }
 /*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
 section.young .y-descricao {
