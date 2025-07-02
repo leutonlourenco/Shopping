@@ -130,23 +130,23 @@ div.partI img {/*IMAGEM MODELO*/
 
 
 /*SECTION YOUNG*/
+.y-titulo { /*TÍTULO DA SECTION PROMOÇÃO*/
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
 section.young {
     display: flex;
     height: 500px;
     width: 100vw;
     flex-flow: row nowrap;
+    margin-top: 40px;
     margin-bottom: 100px;
-    align-items: center;
-    margin-top: 20px;
+    margin-left: 40px;
     gap: 100px;
-    background-color: rgb(117, 44, 44);
     overflow: hidden;
     overflow-x: scroll;
-}
-section.young .y-titulo { /*TÍTULO DA SECTION PROMOÇÃO*/
-    font-size: 30px;
-    margin: 30px 0px;
-    font-weight: bolder;
 }
 section.young > div.y-one { /*1° IMAGEM*/
     display: flex;
@@ -156,10 +156,9 @@ section.young > div.y-one { /*1° IMAGEM*/
 section.young > div.y-two { /*2° IMAGEM*/
     display: flex;
     flex-direction: column;
-    margin-top: 105px;
 }
 section.young img {
-    height: 260px;
+    height: 200px;
 }
 /*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
 section.young .y-descricao {
